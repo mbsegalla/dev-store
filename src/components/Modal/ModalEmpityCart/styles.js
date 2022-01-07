@@ -17,9 +17,18 @@ export const Box = styled.div`
     display: flex;
     align-items: center;
 
+    @media (max-width: 600px) {
+      font-size: 1rem
+  }
+
     svg {
       margin-left: 0.5rem;
     }
+  }
+
+  @media (max-width: 600px) {
+    width: 340px;
+    height: 200px;
   }
 `;
 

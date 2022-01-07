@@ -111,10 +111,18 @@ export const NotFound = styled.div`
 
   span {
     font-size: 2.5rem;
+
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
+    }
   }
 
   svg {
     font-size: 3rem;
-    margin-left: 1rem
+    margin-left: 1rem;
+
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
+    }
   }
 `;
